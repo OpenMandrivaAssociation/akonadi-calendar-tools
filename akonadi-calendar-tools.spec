@@ -27,14 +27,14 @@ or modify calendar events by way of the command line or from a scripting
 language. Additionally, konsolekalendar can create a new KDE calendar, export
 a KDE calendar to a variety of other formats, and import another KDE calendar.
 
-%files
+%files -f %{name}.lang
 %{_kde5_applicationsdir}/konsolekalendar.desktop
-%{_kde5_bindir}/calendarjanitor
-%{_kde5_bindir}/konsolekalendar
-%{_kde5_docdir}/*/*/konsolecalendar
-%{_kde5_iconsdir}/hicolor/*/apps/konsolekalendar.*
-%{_kde5_sysconfdir}/xdg/console.categories
-%{_kde5_sysconfdir}/xdg/console.renamecategories
+%{_bindir}/calendarjanitor
+%{_bindir}/konsolekalendar
+%{_docdir}/*/*/konsolecalendar
+%{_iconsdir}/hicolor/*/apps/konsolekalendar.*
+%{_sysconfdir}/xdg/console.categories
+%{_sysconfdir}/xdg/console.renamecategories
 
 #----------------------------------------------------------------------
 
@@ -47,3 +47,5 @@ a KDE calendar to a variety of other formats, and import another KDE calendar.
 
 %install
 %ninja_install -C build
+
+%find_lang --all %{name}
