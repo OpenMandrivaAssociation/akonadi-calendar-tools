@@ -31,7 +31,7 @@ a KDE calendar to a variety of other formats, and import another KDE calendar.
 %{_kde5_applicationsdir}/konsolekalendar.desktop
 %{_bindir}/calendarjanitor
 %{_bindir}/konsolekalendar
-%{_docdir}/*/*/konsolecalendar
+%{_docdir}/*/*/konsolekalendar
 %{_iconsdir}/hicolor/*/apps/konsolekalendar.*
 %{_sysconfdir}/xdg/console.categories
 %{_sysconfdir}/xdg/console.renamecategories
