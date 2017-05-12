@@ -27,7 +27,7 @@ or modify calendar events by way of the command line or from a scripting
 language. Additionally, konsolekalendar can create a new KDE calendar, export
 a KDE calendar to a variety of other formats, and import another KDE calendar.
 
-%files -f %{name}.lang
+%files -f all.lang
 %{_kde5_applicationsdir}/konsolekalendar.desktop
 %{_bindir}/calendarjanitor
 %{_bindir}/konsolekalendar
@@ -48,4 +48,7 @@ a KDE calendar to a variety of other formats, and import another KDE calendar.
 %install
 %ninja_install -C build
 
-%find_lang --all %{name}
+%find_lang calendarjanitor
+%find_lang konsolekalendar
+
+cat *.lang >all.lang
