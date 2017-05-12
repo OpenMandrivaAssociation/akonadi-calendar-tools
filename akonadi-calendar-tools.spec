@@ -17,6 +17,7 @@ BuildRequires:	cmake(KF5CalendarUtils)
 BuildRequires:	cmake(KF5AkonadiCalendar)
 BuildRequires:	cmake(KF5Libkdepim)
 BuildRequires:	cmake(KF5CalendarSupport)
+BuildRequires:	boost-devel
 Requires:	kdepim-runtime
 Conflicts:	korganizer < 3:16.12
 
