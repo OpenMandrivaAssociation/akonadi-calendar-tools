@@ -15,6 +15,7 @@ BuildRequires:	cmake(KF5Akonadi)
 BuildRequires:	cmake(KF5CalendarCore)
 BuildRequires:	cmake(KF5CalendarUtils)
 BuildRequires:	cmake(KF5AkonadiCalendar)
+BuildRequires:	cmake(KF5KDELibs4Support)
 BuildRequires:	cmake(KF5Libkdepim)
 BuildRequires:	cmake(KF5CalendarSupport)
 BuildRequires:	boost-devel
