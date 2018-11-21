@@ -1,7 +1,7 @@
 Summary:	Command line interface to KDE calendars
 Name:		akonadi-calendar-tools
-Version:	 18.08.2
-Release:	2
+Version:	 18.08.3
+Release:	1
 Epoch:		3
 License:	GPLv2+
 Group:		Graphical desktop/KDE
