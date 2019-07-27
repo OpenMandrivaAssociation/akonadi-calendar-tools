@@ -1,7 +1,7 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 Summary:	Command line interface to KDE calendars
 Name:		akonadi-calendar-tools
-Version:	19.04.3
+Version:	19.07.80
 Release:	1
 Epoch:		3
 License:	GPLv2+
@@ -35,8 +35,8 @@ a KDE calendar to a variety of other formats, and import another KDE calendar.
 %{_bindir}/konsolekalendar
 %{_docdir}/*/*/konsolekalendar
 %{_iconsdir}/hicolor/*/apps/konsolekalendar.*
-%{_sysconfdir}/xdg/console.categories
-%{_sysconfdir}/xdg/console.renamecategories
+%{_datadir}/qlogging-categories5/console.categories
+%{_datadir}/qlogging-categories5/console.renamecategories
 
 #----------------------------------------------------------------------
 
