@@ -1,7 +1,7 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 Summary:	Command line interface to KDE calendars
 Name:		akonadi-calendar-tools
-Version:	21.07.80
+Version:	21.07.90
 Release:	1
 Epoch:		3
 License:	GPLv2+
