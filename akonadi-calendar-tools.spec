@@ -12,13 +12,13 @@ BuildRequires:	cmake(ECM)
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	pkgconfig(Qt5Widgets)
 BuildRequires:	cmake(KF5DocTools)
-BuildRequires:	cmake(KF5Akonadi)
 BuildRequires:	cmake(KF5CalendarCore)
-BuildRequires:	cmake(KF5CalendarUtils)
-BuildRequires:	cmake(KF5AkonadiCalendar)
 BuildRequires:	cmake(KF5KDELibs4Support)
-BuildRequires:	cmake(KF5Libkdepim)
-BuildRequires:	cmake(KF5CalendarSupport)
+BuildRequires:	cmake(KPim5CalendarSupport)
+BuildRequires:	cmake(KPim5Akonadi)
+BuildRequires:	cmake(KPim5AkonadiCalendar)
+BuildRequires:	cmake(KPim5Libkdepim)
+BuildRequires:	cmake(KPim5CalendarUtils)
 BuildRequires:	boost-devel
 Requires:	kdepim-runtime
 Conflicts:	korganizer < 3:16.12
