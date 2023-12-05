@@ -19,8 +19,6 @@ BuildRequires:	cmake(KPim6AkonadiCalendar)
 BuildRequires:	cmake(KPim6Libkdepim)
 BuildRequires:	cmake(KPim6CalendarUtils)
 BuildRequires:	boost-devel
-Requires:	kdepim-runtime
-Conflicts:	korganizer < 3:16.12
 
 %description
 A command line interface to KDE calendars. It lets you view, insert, remove,
