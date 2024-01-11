@@ -1,7 +1,7 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 Summary:	Command line interface to KDE calendars
 Name:		plasma6-akonadi-calendar-tools
-Version:	24.01.85
+Version:	24.01.90
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
