@@ -10,7 +10,7 @@ License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		http://www.kde.org
 %if 0%{?git:1}
-Source0:	https://invent.kde.org/pim/akonadi-calendar-tools/-/archive/%{gitbranch}/akonadi-calendar-tools-%{gitbranchd}.tar.bz2#/akonadi-calendar-tools-20240217.tar.bz2
+Source0:	https://invent.kde.org/pim/akonadi-calendar-tools/-/archive/%{gitbranch}/akonadi-calendar-tools-%{gitbranchd}.tar.bz2#/akonadi-calendar-tools-%{git}.tar.bz2
 %else
 Source0:	http://download.kde.org/%{stable}/release-service/%{version}/src/akonadi-calendar-tools-%{version}.tar.xz
 %endif
