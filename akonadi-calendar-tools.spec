@@ -4,7 +4,7 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 Summary:	Command line interface to KDE calendars
 Name:		akonadi-calendar-tools
-Version:	26.04.3
+Version:	26.08.0
 Release:	%{?git:0.%{git}.}1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
@@ -29,6 +29,7 @@ BuildRequires:	boost-devel
 %rename plasma6-akonadi-calendar-tools
 
 BuildSystem:	cmake
+BuildOption:	-DBUILD_PYTHON_BINDINGS:BOOL=OFF
 BuildOption:	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
 
 %description
